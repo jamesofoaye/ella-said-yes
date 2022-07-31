@@ -34,7 +34,7 @@ export default function Home() {
 				/>
 				<meta
 					property="og:image"
-					content="https://www.ellasaidyes.com/assets/ella-and-james.jpg"
+					content="https://ellasaidyes.com/assets/ella-and-james.jpg"
 				/>
 			</Head>
 
