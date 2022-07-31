@@ -121,12 +121,12 @@ export default function Home() {
 							</Flex>
 
 							<Text fontSize={"lg"} textAlign="center" px={[4, 6, 8]}>
-								We've spent over 4 years living, schooling and working in
+								We&apos;ve spent over 4 years living, schooling and working in
 								different cities, but distance has only made our relationship
 								stronger.
 								<br />
-								We are more rock solid now than ever, and we're excited to take
-								that next big leap in our relationship.
+								We are more rock solid now than ever, and we&apos;re excited to
+								take that next big leap in our relationship.
 							</Text>
 
 							<Image src="/assets/ring.jpg" alt="Rings" pt={3} />
