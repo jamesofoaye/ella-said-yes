@@ -1,13 +1,15 @@
 import Head from "next/head";
-import Image from "next/image";
 import {
 	Box,
 	Flex,
 	Heading,
 	Center,
-	chakra,
+	Image,
 	Link,
 	Stack,
+	VStack,
+	Text,
+	SimpleGrid,
 } from "@chakra-ui/react";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 
@@ -55,6 +57,43 @@ export default function Home() {
 							EMMANUELLA
 						</Center>
 					</Heading>
+				</Box>
+
+				{/** About or Our Story Section */}
+				<Box>
+					<SimpleGrid columns={[1, 2]}>
+						<VStack justifyContent="center" mx={"auto"}>
+							<Flex>
+								<Image src="/assets/love.jpg" alt="Love" />
+								<Heading
+									fontWeight={700}
+									fontSize={["5xl", "5xl", "5xl", "8xl"]}
+									ml={4}
+								>
+									Our Story
+								</Heading>
+							</Flex>
+
+							<Text
+								fontSize={"lg"}
+								textAlign="center"
+								px={[8, 12, 16, 18, 28]}
+								pt={4}
+							>
+								We met in 2018 during our final year in Senior High School. We
+								were in different schools so we exchanged numbers via orbit.
+								After our integrated science final paper, we ended up chatting
+								all night and the rest is history!
+							</Text>
+						</VStack>
+
+						<Box>
+							<Image
+								src="/assets/ella-and-james.jpg"
+								alt="James and Emmanuella"
+							/>
+						</Box>
+					</SimpleGrid>
 				</Box>
 			</main>
 
