@@ -80,10 +80,7 @@ export default function Home() {
 							</Flex>
 
 							<Text fontSize={"lg"} textAlign="center" px={[4, 6, 8]} pt={4}>
-								We met in 2018 during our final year in Senior High School. We
-								were in different schools so we exchanged numbers via orbit.
-								After our integrated science final paper, we ended up chatting
-								all night and the rest is history!
+								We met in 2018 during our final year in Senior High School We were in different schools so we exchanged numbers via orbit (an easy way for senior high school students in Ghana to communicate with their friends in another high school. After our integrated science final paper we ended up chatting all night, and the rest is history!
 							</Text>
 
 							<Image src="/assets/ring.jpg" alt="Rings" pt={3} />
