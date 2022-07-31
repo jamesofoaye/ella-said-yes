@@ -59,7 +59,7 @@ export default function Home() {
 					</Heading>
 				</Box>
 
-				{/** About or Our Story Section */}
+				{/** Our Story Section */}
 				<Box
 					backgroundImage={"/assets/our-story-bg.jpg"}
 					bgSize={"cover"}
