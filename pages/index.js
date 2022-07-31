@@ -80,7 +80,21 @@ export default function Home() {
 							</Flex>
 
 							<Text fontSize={"lg"} textAlign="center" px={[4, 6, 8]} pt={4}>
-								We met in 2018 during our final year in Senior High School We were in different schools so we exchanged numbers via orbit (an easy way for senior high school students in Ghana to communicate with their friends in another high school. After our integrated science final paper we ended up chatting all night, and the rest is history!
+								So there is this way of communicating with your friends or
+								getting to know students in another high school in Ghana by
+								writing and receiving letters by a post called Orbit.
+								<br />
+								We got to know each other through this system when we were both
+								in our final year in high school and waiting to take our
+								end-of-school exams (WASSCE).
+								<br />
+								We exchanged phone numbers with the idea of becoming just
+								friends. After our last paper (Integrated Science), we ended up
+								chatting and laughing all night.
+								<br />
+								It was so interesting that it left us with great memories. We
+								grew from what seemed impossible at the beginning of our
+								relationship to what we are proud of today.
 							</Text>
 
 							<Image src="/assets/ring.jpg" alt="Rings" pt={3} />
