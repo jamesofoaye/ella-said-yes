@@ -60,7 +60,11 @@ export default function Home() {
 				</Box>
 
 				{/** About or Our Story Section */}
-				<Box>
+				<Box
+					backgroundImage={"/assets/our-story-bg.jpg"}
+					bgSize={"cover"}
+					bgPosition={"center"}
+				>
 					<SimpleGrid columns={[1, 2]}>
 						<VStack justifyContent="center" mx={"auto"}>
 							<Flex>
@@ -69,22 +73,20 @@ export default function Home() {
 									fontWeight={700}
 									fontSize={["5xl", "5xl", "5xl", "8xl"]}
 									ml={4}
+									color={"brand.forHeading"}
 								>
 									Our Story
 								</Heading>
 							</Flex>
 
-							<Text
-								fontSize={"lg"}
-								textAlign="center"
-								px={[8, 12, 16, 18, 28]}
-								pt={4}
-							>
+							<Text fontSize={"lg"} textAlign="center" px={[4, 6, 8]} pt={4}>
 								We met in 2018 during our final year in Senior High School. We
 								were in different schools so we exchanged numbers via orbit.
 								After our integrated science final paper, we ended up chatting
 								all night and the rest is history!
 							</Text>
+
+							<Image src="/assets/ring.jpg" alt="Rings" pt={3} />
 						</VStack>
 
 						<Box>
@@ -92,6 +94,46 @@ export default function Home() {
 								src="/assets/ella-and-james.jpg"
 								alt="James and Emmanuella"
 							/>
+						</Box>
+					</SimpleGrid>
+				</Box>
+
+				{/** From Long Distance to Long-Term Section */}
+				<Box>
+					<SimpleGrid columns={[1, 2]}>
+						<Box display={["none", "flex"]}>
+							<Image src="/assets/ella.jpg" alt="Emmanuella" p={[5, 12]} />
+						</Box>
+
+						<VStack justifyContent="center" mx={"auto"}>
+							<Flex>
+								<Heading
+									fontWeight={700}
+									fontSize={["5xl", "5xl", "5xl", "6xl", "7xl", "8xl"]}
+									color={"brand.forHeading"}
+									textAlign="center"
+									mt={5}
+								>
+									From Long Distance
+									<br />
+									to Long-Term
+								</Heading>
+							</Flex>
+
+							<Text fontSize={"lg"} textAlign="center" px={[4, 6, 8]}>
+								We've spent over 4 years living, schooling and working in
+								different cities, but distance has only made our relationship
+								stronger.
+								<br />
+								We are more rock solid now than ever, and we're excited to take
+								that next big leap in our relationship.
+							</Text>
+
+							<Image src="/assets/ring.jpg" alt="Rings" pt={3} />
+						</VStack>
+
+						<Box display={["flex", "none"]}>
+							<Image src="/assets/ella.jpg" alt="Emmanuella" p={[5, 12]} />
 						</Box>
 					</SimpleGrid>
 				</Box>
